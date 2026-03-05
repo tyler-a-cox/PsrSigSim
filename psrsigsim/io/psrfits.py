@@ -5,8 +5,6 @@ from __future__ import (absolute_import, division,
                         print_function, unicode_literals)
 import numpy as np
 import fitsio
-import sys
-sys.path.insert(0,'/Users/hazboun/software_development/PulsarDataToolbox/')
 import pdat
 from .file import BaseFile
 from ..utils import make_quant, make_par
